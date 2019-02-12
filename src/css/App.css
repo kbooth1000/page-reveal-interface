@@ -55,6 +55,11 @@
   color: #fff;
 }
 
+.linkbox ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .linkbox a {
   color: #fff;
   text-decoration: none;
@@ -64,4 +69,8 @@
 .linkbox a:hover {
   color: #bbf;
   text-decoration: none;
+}
+
+.linkbox small {
+  font-size: 9px;
 }

@@ -7,7 +7,7 @@ class Comet extends Component {
     this.state = {};
   }
   rand = (lo, hi) => {
-    console.log('random: ', Math.random() * (hi - lo) + lo);
+    // console.log('random: ', Math.random() * (hi - lo) + lo);
 
     return Math.random() * (hi - lo) + lo;
   };
